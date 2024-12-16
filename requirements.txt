@@ -1,0 +1,14 @@
+# requirements.txt
+
+numpy
+pandas
+scikit-learn
+matplotlib
+torch
+tqdm
+cuml
+cudf
+cupy-cuda11x  # Adjust CUDA version as needed
+nibabel
+joblib
+loguru

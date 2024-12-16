@@ -1,0 +1,26 @@
+# Ignore everything in data/ and output/ except empty directories
+data/*
+!data/.gitkeep
+
+output/*
+!output/.gitkeep
+
+# Python files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+.env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
