@@ -13,12 +13,12 @@ This project is focused on medical image segmentation, specifically for the BraT
 ## Setup  
 1. **Clone the repository**  
    ```bash  
-   git clone https://github.com/yourusername/image_segmentation_project.git  
+   git clone https://github.com/bogazsombor/MDPSO_for_MRI_segmentation
    ```  
 
 2. **Navigate to the project directory**  
    ```bash  
-   cd image_segmentation_project  
+   cd MDPSO_for_MRI_segmentation  
    ```  
 
 3. **Create and activate a virtual environment**  
