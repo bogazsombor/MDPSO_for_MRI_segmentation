@@ -52,7 +52,6 @@ The testing process generates a CSV file containing the following metrics:
 - **accuracy**: Proportion of correctly labeled voxels.  
 - **precision**: Correctly predicted tumors / all predicted tumors.  
 - **recall**: Correctly predicted tumors / all actual tumors.  
-- **F1 score**: Harmonic mean of precision and recall.  
 - **Dice score**: Overlap measure between predicted and ground truth segmentation regions.  
 
 ## Outputs  

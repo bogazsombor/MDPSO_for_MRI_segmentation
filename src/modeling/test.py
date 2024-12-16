@@ -83,7 +83,6 @@ def test_model_on_subjects(rf_model, test_codes, output_dir=OUTPUT_DIR):
             accuracy = (tp + tn) / (tp + tn + fp + fn) if (tp+tn+fp+fn)>0 else 1.0
             precision = tp / (tp + fp) if (tp+fp)>0 else 1.0
             recall = tp / (tp + fn) if (tp+fn)>0 else 1.0
-            f1 = (2 * precision * recall) / (precision + recall) if (precision+recall)>0 else 1.0
             dice = (2 * tp) / (2 * tp + fp + fn) if (2*tp+fp+fn)>0 else 1.0
 
             metrics_data.append({
@@ -97,7 +96,6 @@ def test_model_on_subjects(rf_model, test_codes, output_dir=OUTPUT_DIR):
                 "Accuracy": accuracy,
                 "Precision": precision,
                 "Recall": recall,
-                "F1 Score": f1,
                 "Dice Score": dice
             })
 
