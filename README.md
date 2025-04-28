@@ -1,7 +1,7 @@
 # Image Segmentation Project
 
 ## Overview  
-This project is focused on medical image segmentation, specifically for the BraTS dataset. It uses a Random Forest model to predict and evaluate region segmentation in MRI scans for multiple modalities.  
+This project is focused on medical image segmentation, specifically for the BraTS dataset. It uses a Random Forest model to predict and evaluate region segmentation in MRI scans for multiple modalities.  The project is currently being updated to include 3D segmentation.
 
 ### Features:  
 - Data loading and preprocessing of four MRI modalities.  
